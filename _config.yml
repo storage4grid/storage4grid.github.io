@@ -18,7 +18,7 @@ title: Storage4Grid
 email: storage4grid@ismb.it
 description: > # this means to ignore newlines until "baseurl:"
    This project receives funding from the European Union’s Horizon 2020 Framework Programme for Research and Innovation under grant agreement no 731155. Copyright © 2016, the Storage4Grid Consortium.
-baseurl: "/storage4grid" # the subpath of your site, e.g. /blog
+#baseurl: "/storage4grid" # the subpath of your site, e.g. /blog
 url: "http://storage4grid.eu" # the base hostname & protocol for your site
 twitter_username: storage4grid_eu
 github_username:  storage4grid

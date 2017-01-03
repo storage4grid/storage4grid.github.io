@@ -1,0 +1,133 @@
+---
+layout: default
+title: Technical
+subtitle: Objectives
+---
+        <!-- To01 -->
+        <a name="TO1"></a>
+        <div class="row" >
+            <div class="col-md-3">
+				<img style="width:150px; margin-top: 3em;" class="img-responsive img-center" src="{{site.baseurl}}/img/logo_to1.png">
+            </div>
+            <div class="col-md-9">
+				<h3>Technical Objective 1 (TO1)</h3>
+				<div class="bs-callout bs-callout-success">	  
+					<p>re-design the <strong>S4G interfaces</strong>, namely a set of interfaces and a joint Common Information Model (CIM) suitable for monitoring and control of heterogeneous storage systems</p>
+				</div>
+
+				<p>
+				As the adoption of distributed storage systems in the LV grid increases both at substation level and at user premises, one of the core challenges to be solved is the lack of generic control interfaces suitable to enable coordination and control a large set of capabilities offered by the currently available but also the future storage management systems. In order to solve these challenges, S4G will develop a dedicated set of interfaces, jointly with a related Common Information Model (CIM), which will define the common language among all the various system components engaged in storage control use cases such as Battery Management Systems, Hybrid Inverters,DSO SCADA systems, Smart Meters with extended functionalities, user interfaces, etc.
+				The resulting S4G interfaces and CIM will be developed by extending current and emerging smart grid standards within the IEC 61850 family of standards, and more specifically works deriving from “IEC 61850-90-7 - Object Models for Photovoltaic, Storage and other DER inverters”. This will be a key enabler to enable separate developments of grid-connected storage systems, thus lowering the risk of inconsistencies. Particular attention will be paid to compatibility with current or emerging regulations in the area of cyber security, as well as data protection and privacy.
+				</p>  
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- To02 -->
+        <a name="TO2"></a>
+        <div class="row" >
+            <div class="col-md-3">
+				<img style="width:150px; margin-top: 3em;" class="img-responsive img-center" src="{{site.baseurl}}/img/logo_to2.png">
+            </div>
+            <div class="col-md-9">
+				<h3>Technical Objective 2 (TO2)</h3>
+				<div class="bs-callout bs-callout-success">	  
+					<p>develop a set of <strong>predictive control algorithms</strong> suitable to perform real-time optimization of distributed storage system in existing low and medium voltage grids</p>
+				</div>
+
+				<p>
+				S4G will develop predictive algorithms for controlling distributed storage in the medium- and low-voltage grids. Such algorithms will handle storage units located both at end-user premises, User side ESS, and at substation level, Grid side ESS. S4G will also take into account the presence of charging station for electric vehicles (EV) thorough control algorithms for cooperative EV charging station strategies.
+				The scope of such predictive control algorithms is to prioritize and optimize the use of energy storage capacity to serve different stakeholders, including prosumers (i.e., by providing energy when prosumers need it or other scenario potentially derived from agreed feed-in contracts), grid (i.e., by providing ancillary services to the electrical network like e.g. voltage support), market (i.e., by catching market opportunities when they arise). In order to do so, the algorithms will consider the following forecasted information for the next hours: local production; local consumption profiles; energy price in the market; green energy mix on the market (so as to be able to serve “follow the wind, follow the sun”); need of ancillary services in the network (capacity management service to avoid network congestion, voltage control needs in next hours etc.). The project will be framed by one-hour ahead DSF but higher data resolutions (i.e. 15-minutes or lower) will be considered and deployed in decision scenarios. The predictive control algorithms developed will benefit from the S4G interfaces and models developed within the scope of TO1.
+				</p>  
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+        <!-- To03 -->
+        <a name="TO3"></a>
+        <div class="row" >
+            <div class="col-md-3">
+				<img style="width:150px; margin-top: 3em;" class="img-responsive img-center" src="{{site.baseurl}}/img/logo_to3.png">
+            </div>
+            <div class="col-md-9">
+				<h3>Technical Objective 3 (TO3)</h3>
+				<div class="bs-callout bs-callout-success">	  
+					<p>establish an <strong>Unbundled Smart Meter (USM)</strong> extending existing AMI standards in open fashion to allow local “plug-in” integration of interfaces providing information about storage control, EV charging and local user interfaces to enable interaction with user</p>
+				</div>
+
+				<p>
+				The Unbundled Smart Meter will be composed of a commercial smart meter MID compliant connected with a Smart Meter eXtension (SMX) that reads real-time data (~every 10 seconds, but higher time resolutions up to 1s will be considered in the laboratory demonstrator) from the smart meter and communicate with the DSF. The unbundled smart meter (basically acting as a multi-purpose measurement device) will also be connected to the local communication network and will hosts local software components needed to support the predictive control algorithms developed within the scope of TO2. In this way, the Unbundled Smart Meter will be able to interact with the EVs, storage, local users and the energy router that is within the scope of TO4. Interaction between the unbundled smart meter and DSF will take advantage of newest Mapping efforts between the Common Information Model message profiles (IEC 61968-9) and DLMS/COSEM (IEC 62056) data models and protocols. For this purpose, S4G will use and extend the functionalities of the Smart Meter eXtension, developed by the Nobel Grid project to allow conversion from OBIS (OBject Identification System) codes specific to IEC 62056 (DLMS/COSEM) family to smart grid oriented CIM objects, with reliable real-time values from the meter to be used in DSO observability and control 7. The unbundled smart meter will leverage on the aforementioned standards as well as on the interfaces and models pre-designed within TO1
+				</p>  
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+        
+        <!-- To04 -->
+        <a name="TO4"></a>
+        <div class="row" >
+            <div class="col-md-3">
+				<img style="width:150px; margin-top: 3em;" class="img-responsive img-center" src="{{site.baseurl}}/img/logo_to4.png">
+            </div>
+            <div class="col-md-9">
+				<h3>Technical Objective 4 (TO4)</h3>
+				<div class="bs-callout bs-callout-success">	  
+					<p>establish a fully integrated <strong>Energy Router</strong> allowing an easier integration of DC home grid, renewables and EV’s in a Smart Grid ready approach</p>
+				</div>
+
+				<p>
+				The S4G energy router is a power electronics device that will manage the energy transfer from /to different sources (distribution grid, RES-based distributed generators DGs), loads (directly connected to either AC or DC) and electricity storage system. This energy router will be established accordingly to the Power Electronics Building Blocks (PEBB) concept 8 , “where basic building blocks are consistent with one another, have a defined functionality, standardized hardware & control interfaces”, making it easier to be adapted and scalable to different scenarios. The energy router will execute intelligent algorithms that will assure the fulfilment of operation rules and that will choose the best available option, providing energy services for, both, grid and consumer. Connecting every energy related device/input/output, and integrated with the suitably accurate measurement unit (Unbundled Smart Meter), the energy router will be a major component in the grid/consumer energy interface, being responsible for grid-to-grid communication, load management and integration of multiple generation units, electricity storage, heterogeneous appliances (including DC ring- connected) and existing (AC) distribution grid. The ability of providing distributed ancillary service to the grid (both for reducing frequency variation due to decrease of available inertia and for voltage control) will be coordinated by the S4G DSF by predictive control algorithms in accordance with DSO SCADA grid monitoring and USM. The energy router is connected with the unbundled smart meter within the scope of TO3 and, along with it, is instrumental to implement the control algorithms developed within the scope of TO2.
+				</p>  
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+        
+        <!-- To05 -->
+        <a name="TO5"></a>
+        <div class="row" >
+            <div class="col-md-3">
+				<img style="width:150px; margin-top: 3em;" class="img-responsive img-center" src="{{site.baseurl}}/img/logo_to5.png">
+            </div>
+            <div class="col-md-9">
+				<h3>Technical Objective 5 (TO5)</h3>
+				<div class="bs-callout bs-callout-success">	  
+					<p>develop a <strong>decision-support tool</strong> for analysing, planning, forecasting and optimizing the use of distributed storage in the low and medium voltage grid</p>
+				</div>
+
+				<p>
+				The S4G Decision Support Framework (DSF) is a set of simulation tools to support analysis of the selected set of grid scenarios. It is built upon existing tools for grid network modeling and extended to support realistic simulation of ESS and EVs. The DSF will provide different stakeholders including e.g. DSOs, EV service companies, residential and commercial users, etc. with the possibility to evaluate in advance the feasibility and potential impact of Electrical Storage Systems respectively on grid operations, charging costs, self-consumption, etc. By using the DSF, it will be possible to choose optimal type, size and configurations of storage systems for the application at hand, evaluating the investment in terms of cost-effectiveness, lifetime, ROI etc. The DSF will also provide the ability to model scenarios characterized by high penetration of EVs, also in situations where a large number of charging stations are concentrated in a specific section of the grid (e.g. a garage hosting a fleet of commercial ECs), thus requiring the definition of cooperative strategies combining EV demand response and storage control. In order to achieve more realistic simulation at a lower effort, the DSF will include support for seamlessly importing static, historic and real-time information from the DSO SCADA infrastructure and tools such as GIS systems. The proposed DSF will account for heterogeneous ESS featuring different technologies and scales, from large substation-level systems to small-scale storage at user premises, joint with the ability to forecast load demand and RES generation. Designed control models and algorithm will be modelled in compliance with current regulations and standards, but it will also be possible to re-define modelled storage control interfaces so to experiment the impact of new, pre-designed control capabilities. The main innovation related to such aspect will be the higher granularity in time of information used for defining scenarios and derive the most efficient control algorithms, feature which is inherently offered by the unbundled smart meter concept. Models and interfaces achieved within TO1 provide the basis for designing the DFS, which, in turn includes an implementation of the predictive control algorithms developed within the scope of TO2.
+				</p>  
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+        
+        <!-- To06 -->
+        <a name="TO6"></a>
+        <div class="row" >
+            <div class="col-md-3">
+				<img style="width:150px; margin-top: 3em;" class="img-responsive img-center" src="{{site.baseurl}}/img/logo_to6.png">
+            </div>
+            <div class="col-md-9">
+				<h3>Technical Objective 6 (TO6)</h3>
+				<div class="bs-callout bs-callout-success">	  
+					<p>To <strong>propose and apply an evaluation methodology</strong> that assesses the technical feasibility of the developed technologies & solutions and as well as evaluates the user acceptance while considering the multiple actors and stakeholders within a Smart Grid.</p>
+				</div>
+
+				<p>
+				S4G pursues the development of new technologies for the storage of energy and enhancements of demand-response schemes. Building on these technologies and enhancements, new potential business models can be explored offering new services that: (i) provides means for energy actors to operate more stable and flexible distribution networks, e.g. cost-effective conversion of surplus energy, flexible distribution of large share of variable renewables with subsequently reduction of congestion, and (ii) enable prosumers to store energy at affordable costs and release this energy in a more flexible manner following different of demand peak patterns. In this context, one particularly interesting way of storing energy is the “vehicle-to-grid” (V2G 9 ) concept. The Smart Grid vision per se spans an ecosystem, enabling the convergence of multiple actors (DSO, TSO, consumers/prosumers, e-car manufacturers, energy retailers and stocks, etc.) and stakeholders (public authorities, standardization bodies, insurances, etc.). Consequently, S4G and its components need to be evaluated in a way which assesses impact and user acceptance. By doing so, S4G can ensure that newly identified business models serve the variety of needs of the multiple actors and stakeholders within the Smart Grid. S4G will explicitly address both the economic and environmental impacts. Moreover, the new technologies for storage will be evaluated in terms of their compatibility level with respect to existing standards. Evaluation activities within the scope of TO6 are devised to encompass all technologies and solutions developed within the scope of TO1 – TO5.
+				</p>  
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+        
+                                        

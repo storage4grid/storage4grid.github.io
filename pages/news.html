@@ -1,0 +1,83 @@
+---
+layout: default
+title: Storage4Grid News
+---
+
+<div class="row">
+	
+	<div class="col-lg-9">
+		
+		<p>
+			Please find below some highlights of news, events and other information related to the Storage4Grid project. 
+		</p>			
+		<p>
+			You can also:
+			<ul>
+				<li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss-square" style="font-size: 1.5em; color: #d98935;"></i> Subscribe via RSS</a> to stay informed about latest news.</li>
+				<li><a href="https://www.twitter.com/storage4grid_eu"><i class="fa fa-twitter-square" style="font-size: 1.5em; color: #78bfff;"></i> follow Storage4Grid on Twitter</li>
+				<li><a href="{{site.baseurl}}/pages/contacts.html"><i class="fa fa-envelope" style="font-size: 1.5em; color: #a8a8a8;"></i> Contact the project.</a></li>
+			</ul>
+		</p>
+		
+		<ul class="post-list">
+			{% for post in site.posts %}
+				<li>
+					<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+					<h2>
+						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+					</h2>
+				</li>
+			{% endfor %}
+		</ul>		
+
+	</div>
+	
+	<div class="col-lg-3">
+		<div>
+			<div class="panel-body fixed-panel">
+				<a class="twitter-timeline" href="https://twitter.com/storage4grid_eu">Tweets by Storage4Grid</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>        
+			</div>
+		</div>
+	</div>         
+
+
+</div>
+
+<!--
+
+
+	<p> </p>
+	<p></p>
+		
+
+   
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS </a></p>
+
+
+
+-->
+
+
+
+
+
+	
+		
+	
+	
+
+
+

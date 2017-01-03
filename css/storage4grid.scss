@@ -1,0 +1,198 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+//S4G variables here
+
+$s4g-blue:		#1e3040;
+$s4g-green: 	#86a13a;
+$s4g-red:		#c73937;
+$s4g-orange:	#d98935;
+$s4g-yellow:	#f2d053;	
+
+$s4g-lightblue:		#78bfff;
+$s4g-lightgreen: 	#f0ffc6;
+$s4g-lightred:		#fbc8c7;
+$s4g-lightorange:	#ffdbb5;
+$s4g-lightyellow:	#fff0b9;
+$s4g-strongyellow:	#ffff00;
+
+$s4g-black:			#000000;	
+$s4g-graydarker:	#2a2a2a;
+$s4g-graydark:		#545454;
+$s4g-graymedium:	#7f7f7f;
+$s4g-graylight:		#a8a8a8;
+$s4g-graylighter:	#d2d2d2;
+$s4g-white:	#ffffff;	
+
+
+
+h2.carouseltext {
+	background: rgba(0, 0, 0, 0);
+	color: $s4g-strongyellow;
+}
+
+div.carouseltext {
+	background: rgba(128, 128, 128, .5);
+}
+
+
+
+/* Header bar text */
+.navbar-inverse .navbar-nav>li>a {
+	color: $s4g-white;
+}
+
+/* Header bar background */
+.navbar-inverse {
+  background-color: $s4g-blue;
+  border-color: $s4g-graydarker;
+  color: $s4g-white;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, 0);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+
+
+/* panels */
+
+.panel {
+	border-color: $s4g-graydark;
+}
+
+.panel >.panel-heading {
+  background-color: $s4g-blue;
+  border-color: $s4g-graydark;
+  color: $s4g-white;
+}
+
+h1.page-header {
+	color: $s4g-blue;
+	font-weight:bold;
+	
+}
+
+h2.page-header {
+	color: $s4g-blue;
+	font-weight:bold;
+}
+
+h1 {
+	color: $s4g-blue;
+}
+
+h2 {
+	color: $s4g-blue;
+}
+
+
+	
+.fixed-panel {
+  min-height: 600px;
+  max-height: 600px;
+  overflow-y: hidden;
+}
+
+a.socialicon {
+	margin-left: 3px;
+	padding: 1px;
+	/*border: 1px solid black;*/
+}
+
+span.socialicon {
+	padding: 1px;
+	/*border: 1px solid red;*/
+
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: $s4g-green;
+}
+.bs-callout-success h4 {
+    color: $s4g-green;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.img-center {margin:0 auto;}
+
+p {
+	text-align: justify;
+	font-size: large;
+}
+
+li {
+	font-size: large;
+}

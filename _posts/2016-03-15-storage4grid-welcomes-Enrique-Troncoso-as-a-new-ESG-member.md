@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Storage4Grid welcomes Enrique Troncoso as a new ESG member"
-date:   2017-03-13 11:00:00 +0100
+date:   2017-03-15 11:30:00 +0100
 categories: project, esg
 ---
 

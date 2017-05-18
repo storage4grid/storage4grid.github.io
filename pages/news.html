@@ -7,26 +7,30 @@ title: Storage4Grid News
 	
 	<div class="col-lg-9">
 		
+			
 		<p>
-			Please find below some highlights of news, events and other information related to the Storage4Grid project. 
-		</p>			
-		<p>
-			You can also:
+			Interested in being informed about project results ? You can:
 			<ul>
+				<li><a href="{{site.baseurl}}/pages/newsletter.html"><i class="fa fa-envelope" style="font-size: 1.5em; color: #78bfff;"></i> Subscribe to our newsletter.</a></li>
 				<li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss-square" style="font-size: 1.5em; color: #d98935;"></i> Subscribe via RSS</a> to stay informed about latest news.</li>
 				<li><a href="https://www.twitter.com/storage4grid_eu"><i class="fa fa-twitter-square" style="font-size: 1.5em; color: #78bfff;"></i> follow Storage4Grid on Twitter</li>
 				<li><a href="{{site.baseurl}}/pages/contacts.html"><i class="fa fa-envelope" style="font-size: 1.5em; color: #a8a8a8;"></i> Contact the project.</a></li>
 			</ul>
 		</p>
 		
+		<br>
+		<br>
+		
+		<p>
+			Short news, events and other information related to the dissemination of Storage4Grid project results is available below. 
+		</p>
+
 		<ul class="post-list">
 			{% for post in site.posts %}
-				<li>
+				<li class="post-list">
 					<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-					<h2>
-						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-					</h2>
+					<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+					<hr>
 				</li>
 			{% endfor %}
 		</ul>		

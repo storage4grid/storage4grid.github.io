@@ -5,7 +5,7 @@ title: Deliverables
 
 All public Storage4Grid deliverables can be downloaded below. 
 
-**Note:** *download links become active after successful approval of each deliverable by the EC, normally a few days after the actual due date.*
+**Note:** *download links become active after successful approval by the EC, which is expected after the each official review. The first official review is expected after M18 (May 2018)*
 
 |:---:|:---:|:---:|:---:|:---:|
 | ID | Title | Due | Diss. Level | Download |

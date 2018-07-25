@@ -216,3 +216,59 @@ li.post-list {
 	padding: 0px;
 	font-size: medium;
 }
+
+		.gdpr-mergeRow{
+			margin:10px 0;
+			color:#4a4a4a;
+			font-family:Helvetica;
+		}
+		.gdpr-content{
+			margin:0 -20px 0 -20px;
+			padding:20px;
+			background:rgba(255, 255, 255, 0.8);
+		}
+		#gdpr-label{
+			margin-top:0;
+		}
+		#gdpr-description{
+			margin-top:6px;
+			margin-bottom:0;
+			padding-bottom:11px;
+		}
+		.gdpr-content p{
+			color:#4a4a4a;
+			font-size:13px;
+			line-height:1.5;
+		}
+		.gdpr-content label{
+			color:#4a4a4a;
+			font-family:Helvetica;
+		}
+		.gdpr-content .checkbox-group label{
+			font-weight:normal;
+			font-size:13px;
+		}
+		#gdpr-legal{
+			padding-top:20px;
+			margin:0;
+		}
+		.gdpr-footer{
+			margin:0 -20px 0 -20px;
+			padding:20px;
+			background:rgba(255, 255, 255, 0.9);
+			overflow:auto;
+			color:#6d6d6d;
+		}
+		.gdpr-footer p{
+			font-size:10px;
+			line-height:1.5;
+			margin-bottom:0;
+		}
+		.gdpr-footer a{
+			color:#206578;
+		}
+		.gdpr-footer img{
+			width:65px;
+			float:left;
+			margin-right:15px;
+		}

@@ -22,7 +22,7 @@ Overall, as of today, all configurations result in a low exploitation of RES and
 Figure below depicts the reference architecture of the “Cooperative EV Charging” scenario and test site, covering both the commercial and residential case.
 <img style="width: 75%; border: 1px solid #1e3040; padding: 15px;" class="img-responsive center-block" src="{{site.baseurl}}/img/Cooperative_EV_charging.png">
 
-In the commercial case, a ESS, compliant with S4G interfaces and models will be used in conjunction with a commercial charging station featuring a combination of slow and fast Charging Points (CP), for a total of 10.
+In the commercial case, an ESS, compliant with S4G interfaces and models will be used in conjunction with a commercial charging station featuring a combination of slow and fast Charging Points (CP), for a total of 10.
 
 S4G will deploy modified "smart charge boxes" in each of the charging points so to enable fine-grained monitoring and control of the charging process from the SCADA. Thanks to the deployed infrastructure, a number of predictive control algorithms will be developed, deployed and tested to establish a cooperative behaviour between the EV charging and storage control processes.
 

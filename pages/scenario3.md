@@ -17,7 +17,7 @@ The Danish island of Fur is small island in the municipality of Skive, which hos
 
 In order to allow EU utilities such as ENIIG and their customers to pursue more informed investments in storage, while increasing RES self-consumption and avoiding heavy investments in strengthening the gird, S4G will study methodologies for planning, evaluating and controlling distributed storage installations at user premises and at substation level in a coordinated fashion. Figure below depicts the reference architecture of the "Storage Coordination" scenario and test site, covering a number of control and evaluation cases. 
 
-<img style="width: 75%; border: 1px solid #1e3040; padding: 15px;" class="img-responsive center-block" src="{{site.baseurl}}/img/storage-coordination-scenario.png">
+<img style="width: 75%; border: 1px solid #1e3040; padding: 15px;" class="img-responsive center-block" src="{{site.baseurl}}/img/storage-coordination-scenario_2.jpg">
 
 The scenario involves five residential Fur houses already provided with storage. Such houses feature various sizes of PV installations (ranging from 5 to 12 kW sizes) and are all connected to the same distribution radial. Such houses will be provided with an USM, integrated with the residential ESS and a dedicated local GUI. Similarly, a substation-level ESS will be deployed
 on-site. Overall, all available control capabilities will be interconnected with the DSO SCADA system, thus enabling cooperative behaviours in the storage systems.

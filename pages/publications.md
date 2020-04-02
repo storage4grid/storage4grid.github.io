@@ -34,7 +34,7 @@ title: Publications
 
 - *D. Sidea, L. Toma, M. Sănduleac, I. Picioroaga, and V. Boicea, **Optimal BESS scheduling strategy in microgrids based on genetic algorithms**, in 2019 IEEE Milan PowerTech, June 2019, pp. 1–6 - [link](https://ieeexplore.ieee.org/document/8810633)*
 
-- *H. Mirtaheri, O. Tovar, M. Ligios, S. Fava, M. Ferraris, M. Fantino, C. Pastrone, and M. Spirito, **Novel model for integration of battery storage systems into the electricity grid as support for the green energy mix**, in Energy for Sustainability International Conference 2019 Designing a Sustainable Future, June 2019, pp. 1–6.* 
+- *H. Mirtaheri, O. Tovar, M. Ligios, S. Fava, M. Ferraris, M. Fantino, C. Pastrone, and M. Spirito, **Novel model for integration of battery storage systems into the electricity grid as support for the green energy mix**, in Energy for Sustainability International Conference 2019 Designing a Sustainable Future, June 2019, pp. 1–6. - [link](https://www.efs2019.uc.pt/projectos/efs2019/index.php?module=sec&id=739&f=1)* 
 
 - *M. Sănduleac, M. Albu, D. Stanescu, and C. Stanescu, **Prosumers optimally adapted to local load. Rationale and benefits for the grid**, in 2019 8th International Conference on Modern Power Systems (MPS), May 2019, pp. 1–6 - [link](https://ieeexplore.ieee.org/document/8759678)*
 
